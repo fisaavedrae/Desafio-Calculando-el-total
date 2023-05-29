@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    width: 370px;
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.hero {
+    width: 320px;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: block;
+
+}
+
+.contenido {
+    width: 320px;
+
+
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+.informacion {
+    text-align: center;
+}
+
+.descripcion {
+    color: hsl(224, 23%, 55%);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+
+}
+
+.valores {
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.plan {
+    font-weight: bold;
+}
+
+.valor-plan {
+    color: hsl(224, 23%, 55%);
+}
+
+.boton-payment {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.boton {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 90%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px hsl(224, 23%, 55%);
+
+}
+
+.cancel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cancel a {
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width:612px) {
+    .card {
+        width: 100%;
+        background-image: url("../images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .hero {
+        width: 400px;
+        border-radius: 15px 15px 0px 0px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        display: block;
+
+    }
+
+    .contenido {
+        width: 400px;
+
+
+        background-color: white;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        border-radius: 0px 0px 15px 15px;
+
+    }
+}
