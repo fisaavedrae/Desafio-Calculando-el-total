@@ -6,44 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-
-  </style>
+  <title>Desafio Calculando el total</title>
 </head>
 
 <body>
   <div class="container">
     <div class="card">
       <div class="imagen">
-        <img class="hero" src="./assets/images/illustration-hero.svg" alt="Imagen Hero" />
+        <img class="hero" src="./assets/images/ipad.jpg" alt="Imagen Hero" />
       </div>
       <div class="contenido">
-        <div class="informacion">
-          <h1>Order Summary</h1>
-          <p class="descripcion"> You can now listen to millions of songs, audiobooks, and podcasts on any
-            device anywhere you like!</p>
-        </div>
-
-        <div class="valores">
-          <div class="icono"><img src="./assets/images/icon-music.svg" alt="Icono de nota musical" /> </div>
-          <div class="info-plan">
-            <div class="plan"> Annual Plan
+        <!-- Inicio form-->
+        <div class="formulario">
+          <form>
+            <div class="itemForm">
+              <h2>iPad</h2>
             </div>
-            <div class="valor-plan">$59.99/year</div>
-          </div>
-          <div class="change"><a href="#">Change</a></div>
+            <div class="itemForm">
+              <p>Cantidad: &nbsp;</p>
+              <p> <input type="text" id="inputCantidad"></p>
+            </div>
+            <div class="itemForm">
+              <p>Color: &nbsp;</p>
+              <p> <input type="color" id="inputColor"></p>
+            </div>
+            <div class="itemForm">
+              <p class="precio"></p>
+            </div>
+            <div>
+              <div class="boton" onclick="calcularValor()">Calcular</div>
+            </div>
+          </form>
+        </div>
 
+        <!-- Fin form-->
+        <div class="resumen">
+          <div class="itemForm">
+            <h2>Resumen</h2>
+
+          </div>
+          <div class="itemForm">
+            <p>Total &nbsp;</p>
+            <p class="total"></p>
+          </div>
+          <div class="itemForm">
+            <p>Cantidad &nbsp;</p>
+            <p class="cantidad"></p>
+          </div>
+          <div class="itemForm">
+            <p>Color &nbsp;</p>
+            <p class="color"></p>
+          </div>
         </div>
-        <div class="boton-payment">
-          <div class="boton">Proceed to Payment</div>
-        </div>
-        <div class="cancel"><a href="#">Cancel Order</a></div>
+
+
+
+
       </div>
 
 
@@ -62,9 +83,10 @@
 
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+
+    Coded by <a href="https://fisaavedrae.github.io/">FSE</a>
   </div>
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
