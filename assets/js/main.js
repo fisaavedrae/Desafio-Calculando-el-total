@@ -8,9 +8,6 @@ function calcularValor() {
     let color = document.getElementById('inputColor');
     let total = precio * cantidad.value;
 
-    console.log("Cantidad: " + cantidad.value);
-    console.log("Color: " + color.value);
-    console.log("Total: " + precio * cantidad.value);
 
     let divTotal = document.querySelector(".total");
     let divCantidad = document.querySelector(".cantidad");

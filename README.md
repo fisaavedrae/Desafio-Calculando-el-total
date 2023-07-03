@@ -13,6 +13,7 @@ Para desarrollar estoy usando un macbook air con una resolución de 1440x900, si
 
 
 
-[link repo](https://github.com/fisaavedrae/animacion-css)
+[link repo](https://github.com/fisaavedrae/Desafio-Calculando-el-total)
 
-[link live app](https://animacion-css-three.vercel.app/)
+[link live app](https://desafio-calculando-el-total.vercel.app/)
+
